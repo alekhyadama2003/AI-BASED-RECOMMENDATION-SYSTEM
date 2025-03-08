@@ -182,6 +182,7 @@ Follow these steps to set up and run the project:
 ## Code Snippets - Key Implementation Sections
 
 **1. Data Model Loading:**
+*** OUTPUT : ![Image](https://github.com/user-attachments/assets/e23c79b4-813a-43be-ae23-9bcdff702fa2)
 
 ```java
 DataModel model = new FileDataModel(new File("ratings.csv"));
@@ -200,4 +201,5 @@ if (recommendations.isEmpty()) {
         String brandName = brandIdToNameMap.get(brandId);
         // ... print recommendation details ...
     }
-}
+} 
+
